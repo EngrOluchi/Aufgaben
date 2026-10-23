@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-infilename = r"C:\Users\student\Aufgaben\testfile.csv"
+infilename = "testfile.csv"
 data = pd.read_csv(infilename)
 
 plt.plot(data["T_degC"], "bo" )
